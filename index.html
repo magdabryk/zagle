@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102e35">
+  <meta name="description" content="Sport Time, Ski & Sail — aktywne obozy zimowe we Włoszech i letnie przygody żeglarskie na Mazurach.">
+  <title>Ski & Sail — przygoda zaczyna się poza domem</title>
+  <link rel="preconnect" href="https://static.wixstatic.com">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Przejdź do treści</a>
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Ski and Sail — strona główna">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span></span>
+        <span class="brand-name">ski<span>&</span>sail<small>SPORT TIME</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Otwórz menu">
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Nawigacja główna">
+        <a href="#przygody">Przygody</a>
+        <a href="#o-nas">O nas</a>
+        <a href="#wartosci">Dlaczego my</a>
+        <a class="nav-contact" href="#kontakt">Kontakt <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-photo" role="img" aria-label="Wspólna letnia przygoda nad wodą"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow eyebrow-light"><span></span> Stowarzyszenie Sport Time, Ski & Sail</p>
+        <h1 id="hero-title">Więcej niż<br><em>wakacje.</em></h1>
+        <p class="hero-copy">Zimą łapiemy narciarski rytm w górach. Latem odkrywamy Mazury pod żaglami. Najlepsze wspomnienia tworzymy razem.</p>
+        <div class="hero-actions">
+          <a class="button button-lime" href="#przygody">Poznaj nasze wyjazdy <span aria-hidden="true">↘</span></a>
+          <a class="hero-phone" href="tel:+48501260672"><span class="phone-icon" aria-hidden="true">↗</span><span>Porozmawiaj z nami<small>+48 501 260 672</small></span></a>
+        </div>
+      </div>
+      <div class="hero-note"><span>01</span> ZIMA <i></i> LATO</div>
+      <a class="scroll-cue" href="#przygody" aria-label="Przewiń do przygód"><span></span> ZOBACZ WIĘCEJ</a>
+    </section>
+
+    <section class="intro section-wrap" id="o-nas">
+      <div class="intro-kicker"><span class="eyebrow">Nasza pasja</span><span class="handwritten">Ruszaj z nami!</span></div>
+      <div class="intro-copy">
+        <h2>Ruch, przyjaźnie<br>i <em>małe wielkie</em><br>przygody.</h2>
+        <div class="intro-description">
+          <p>Tworzymy wyjazdy dla dzieci i młodzieży, w których aktywny wypoczynek spotyka się z dobrą opieką i atmosferą prawdziwej ekipy.</p>
+          <p>Uczymy się nowych rzeczy, próbujemy, śmiejemy i wracamy z historiami, które zostają na długo — na stoku, na jeziorze i poza utartym szlakiem.</p>
+          <a class="text-link" href="#wartosci">Poznaj nasze podejście <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="intro-stamp" aria-hidden="true"><span>WSPÓLNA<br>PRZYGODA</span><b>✳</b></div>
+    </section>
+
+    <section class="adventures" id="przygody" aria-labelledby="adventures-title">
+      <div class="section-wrap adventures-inner">
+        <div class="section-heading">
+          <div><p class="eyebrow">Dwa sezony, mnóstwo możliwości</p><h2 id="adventures-title">Wybierz swoją<br><em>przygodę.</em></h2></div>
+          <p class="section-aside">Każdy wyjazd to nowi ludzie, nowe umiejętności i wspólny czas, którego nie da się przewinąć.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Filtruj wyjazdy">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">Wszystkie <span>03</span></button>
+          <button class="filter-button" type="button" data-filter="winter" aria-pressed="false">Zima <span>01</span></button>
+          <button class="filter-button" type="button" data-filter="summer" aria-pressed="false">Lato <span>02</span></button>
+        </div>
+        <div class="adventure-grid">
+          <article class="adventure-card card-winter" data-season="winter">
+            <div class="card-image image-winter"><span class="card-tag">ZIMA <i>↗</i></span><span class="image-caption">DOLOMITY · WŁOCHY</span></div>
+            <div class="card-body"><div class="card-number">01 / ZIMOWA EKIPA</div><h3>Na stok.<br>Po nowe emocje.</h3><p>Narciarsko-snowboardowy wyjazd w alpejskiej scenerii. Doskonalenie jazdy, aktywne dni i wieczory pełne dobrej energii.</p><button class="card-link" type="button" data-trip="winter" aria-haspopup="dialog" aria-controls="trip-dialog">Zobacz szczegóły <span aria-hidden="true">↗</span></button></div>
+          </article>
+          <article class="adventure-card card-camp" data-season="summer">
+            <div class="card-image image-camp"><span class="card-tag">LATO <i>↗</i></span><span class="image-caption">MAZURY · OBÓZ STACJONARNY</span></div>
+            <div class="card-body"><div class="card-number">02 / LETNIA EKIPA</div><h3>Jezioro, las<br>i pełen dzień.</h3><p>Żeglowanie, gry terenowe, warsztaty i sport. Letni obóz, w którym każdy dzień przynosi coś nowego.</p><button class="card-link" type="button" data-trip="camp" aria-haspopup="dialog" aria-controls="trip-dialog">Zobacz szczegóły <span aria-hidden="true">↗</span></button></div>
+          </article>
+          <article class="adventure-card card-sail" data-season="summer">
+            <div class="card-image image-sail"><span class="card-tag">LATO <i>↗</i></span><span class="image-caption">WIELKIE JEZIORA MAZURSKIE</span></div>
+            <div class="card-body"><div class="card-number">03 / W DRODZE</div><h3>Kurs na<br>wspomnienia.</h3><p>Rejs po mazurskich jeziorach, nauka żeglarstwa i codzienność na pokładzie. Wiatr w żaglach, ekipa na pokładzie.</p><button class="card-link" type="button" data-trip="sail" aria-haspopup="dialog" aria-controls="trip-dialog">Zobacz szczegóły <span aria-hidden="true">↗</span></button></div>
+          </article>
+        </div>
+        <p class="offer-note">Terminy, dostępność i szczegóły aktualnej oferty potwierdzamy bezpośrednio — napisz lub zadzwoń.</p>
+      </div>
+    </section>
+
+    <dialog class="trip-dialog" id="trip-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-topline"><span id="dialog-season">SZCZEGÓŁY WYJAZDU</span><button class="dialog-close" type="button" aria-label="Zamknij szczegóły">×</button></div>
+      <div class="dialog-content">
+        <p class="eyebrow" id="dialog-kicker"></p>
+        <h2 id="dialog-title"></h2>
+        <p class="dialog-summary" id="dialog-summary"></p>
+        <h3>Co może być w programie?</h3>
+        <ul id="dialog-highlights"></ul>
+        <p class="dialog-note">Program, miejsce, terminy i koszt potwierdzamy dla aktualnego sezonu. Napisz lub zadzwoń, aby poznać dostępne szczegóły.</p>
+        <div class="dialog-actions"><a class="button button-lime" href="mailto:eurodzieciak@interia.pl?subject=Zapytanie%20o%20wyjazd%20Ski%20%26%20Sail">Zapytaj o ofertę <span aria-hidden="true">↗</span></a><a href="tel:+48501260672">+48 501 260 672</a></div>
+      </div>
+    </dialog>
+
+    <section class="values section-wrap" id="wartosci" aria-labelledby="values-title">
+      <div class="values-top"><div><p class="eyebrow">Dobra przygoda zaczyna się od dobrych ludzi</p><h2 id="values-title">Jesteśmy tu,<br>żeby <em>zadbać</em><br>o całą resztę.</h2></div><div class="values-quote"><span class="quote-mark">“</span><p>Chcemy, aby dzieci wracały z wyjazdów bogatsze o przyjaźnie, odwagę i radość z próbowania nowych rzeczy.</p><span class="quote-line">SPORT TIME, SKI & SAIL</span></div></div>
+      <div class="value-list">
+        <article class="value-item"><span class="value-icon" aria-hidden="true">✳</span><div><h3>Uważna opieka</h3><p>Wykwalifikowana kadra pedagogiczna i doświadczeni instruktorzy towarzyszą uczestnikom na każdym etapie wyjazdu.</p></div><span class="value-index">01</span></article>
+        <article class="value-item"><span class="value-icon" aria-hidden="true">↗</span><div><h3>Aktywność z sensem</h3><p>Sport, żeglarstwo, kreatywne warsztaty i wspólne odkrywanie świata — każdy znajdzie przestrzeń dla siebie.</p></div><span class="value-index">02</span></article>
+        <article class="value-item"><span class="value-icon" aria-hidden="true">♡</span><div><h3>Ekipa, nie tłum</h3><p>Dbamy o atmosferę, w której łatwo nawiązać znajomości, działać razem i poczuć się częścią grupy.</p></div><span class="value-index">03</span></article>
+      </div>
+    </section>
+
+    <section class="contact" id="kontakt" aria-labelledby="contact-title">
+      <div class="contact-shape shape-one" aria-hidden="true"></div><div class="contact-shape shape-two" aria-hidden="true"></div>
+      <div class="contact-inner section-wrap">
+        <p class="eyebrow eyebrow-light">Napisz. Zadzwoń. Ruszaj z nami.</p>
+        <h2 id="contact-title">Kolejna przygoda<br>zaczyna się od <em>„cześć”.</em></h2>
+        <p class="contact-copy">Zapytaj o aktualne terminy, program i wolne miejsca. Chętnie opowiemy, który wyjazd będzie najlepszy.</p>
+        <div class="contact-actions"><a class="button button-lime" href="mailto:eurodzieciak@interia.pl?subject=Zapytanie%20o%20wyjazd%20Ski%20%26%20Sail">Napisz do nas <span aria-hidden="true">↗</span></a><a class="contact-phone" href="tel:+48501260672">+48 501 260 672</a></div>
+        <div class="contact-details"><div><span>ORGANIZATORKA</span><strong>Renata Marzec</strong></div><div><span>NAPISZ E-MAIL</span><a href="mailto:eurodzieciak@interia.pl">eurodzieciak@interia.pl</a></div><div><span>STOWARZYSZENIE</span><strong>Sport Time, Ski & Sail</strong></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-inner section-wrap"><a class="brand brand-footer" href="#top"><span class="brand-mark" aria-hidden="true"><span></span><span></span></span><span class="brand-name">ski<span>&</span>sail<small>SPORT TIME</small></span></a><p>Przygoda jest bliżej, niż myślisz.</p><span class="copyright">© <span id="year"></span> Sport Time, Ski & Sail</span></div></footer>
+</body>
+</html>
